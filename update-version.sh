@@ -1,6 +1,6 @@
 #!/bin/sh
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
-$SCRIPT_DIR/env.sh
+source $SCRIPT_DIR/env.sh
 
 echo "==================================================="
 echo "PIO_VERSION $PIO_VERSION"
