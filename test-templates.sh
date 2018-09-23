@@ -1,6 +1,6 @@
 #!/bin/sh
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
-source $SCRIPT_DIR/env.sh
+$SCRIPT_DIR/env.sh
 
 for PIO_TEMPLATE in $PIO_TEMPLATES; do
   echo "[INFO] Test $PIO_TEMPLATE..."
