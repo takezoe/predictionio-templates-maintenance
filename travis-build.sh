@@ -3,7 +3,7 @@ SCRIPT_DIR=$(cd $(dirname $0); pwd)
 cd $SCRIPT_DIR
 
 rm -rf predictionio
-git clone -b develop https://git-wip-us.apache.org/repos/asf/predictionio.git
+git clone -b develop https://github.com/apache/predictionio.git
 cd predictionio
 sbt publishLocal
 

@@ -7,5 +7,5 @@ cd $SCRIPT_DIR
 for PIO_TEMPLATE in $PIO_TEMPLATES; do
   echo "[INFO] Clone $PIO_TEMPLATE"
   rm -rf $PIO_TEMPLATE
-  git clone https://git-wip-us.apache.org/repos/asf/$PIO_TEMPLATE.git
+  git clone https://github.com/apache/$PIO_TEMPLATE.git
 done
